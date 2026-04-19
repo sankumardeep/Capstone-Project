@@ -98,3 +98,55 @@ Feature selection significantly improves performance
 SHO outperforms PSO and ACO
 Transformer and CapsDA both achieve high accuracy
 Low FAR indicates fewer false alarms
+
+
+
+Dataset:
+
+📊 Dataset Used: CICIoT 2023
+The project uses the CICIoT 2023 dataset, a publicly available dataset for IoT intrusion detection.
+It contains network traffic data with both benign and malicious activities.
+Includes multiple attack types such as:
+DDoS-ICMP Flood
+DDoS-UDP Flood
+DDoS-TCP Flood
+SYN Flood, RST-FIN Flood, etc.
+🌐 Where to Download
+
+👉 You can download the dataset from:
+
+Canadian Institute for Cybersecurity (official source)
+CICIoT 2023 Dataset Download Page
+
+👉 Also available on:
+
+Kaggle (easiest way)
+📥 Recommended (Easiest Method — Kaggle)
+Step 1: Install Kaggle API
+pip install kaggle
+Step 2: Upload Kaggle API key (kaggle.json)
+Step 3: Download dataset
+kaggle datasets download -d <dataset-name>
+
+👉 Then unzip:
+
+unzip dataset.zip
+📁 Dataset Structure
+
+The dataset contains:
+
+train.csv → training data
+test.csv → testing data
+validation.csv → validation data
+
+👉 Each file includes:
+
+Network traffic features
+label column (target class)
+🧹 How We Used the Dataset
+Loaded all CSV files
+Merged into one dataset
+Cleaned missing/invalid values
+Selected 8 important classes
+Balanced the dataset
+Applied preprocessing and feature selection
