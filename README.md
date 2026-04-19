@@ -84,7 +84,7 @@ Robust performance with minimal false alarms
 📦 How to Run
 
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone git clone (https://github.com/sankumardeep/Capstone-Project#)
 
 # Navigate to project
 cd your-repo-name
